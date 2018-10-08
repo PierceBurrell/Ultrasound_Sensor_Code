@@ -43,7 +43,7 @@ void loop()
   // Or In Inches: 13503.9In/s = 0.0135In/uS = 1/74In/u
   
   cm = (duration/2) / 29.1; // Divided by 29.1 To Give Value In Cms
-  inches = (duraction/2) / 74; // Divide by 74 To Give Value In Inches
+  inches = (duration/2) / 74; // Divide by 74 To Give Value In Inches
 
   Serial.print(inches); // Prints Out Value For Inches Calculated
   Serial.print(" inches\n"); // Prints Out Text
